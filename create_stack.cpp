@@ -52,6 +52,14 @@ cout<<"true"<<endl;
         
     }
 }
+void    isEmpty(Stack *ptr){if(ptr->top==-1){
+cout<<"true"<<endl;
+    }
+    else {
+        cout<<"false"<<endl;
+        
+    }
+}
 int main(){
 Stack obj1;
 create(obj1,4);
@@ -61,4 +69,6 @@ pop(obj1);
 display(obj1);
 cout<<obj1.size<<endl;
 isFull(&obj1);
+pop(obj1);pop(obj1);  isEmpty(&obj1);
+pop(obj1); isEmpty(&obj1);
 }
