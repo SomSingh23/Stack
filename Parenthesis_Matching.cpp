@@ -63,7 +63,7 @@ void check(Stack *tr){bool k ;
 int main(){
      ios_base::sync_with_stdio(false); // this will run your code fast :__)
     cin.tie(nullptr);                     // this will run your code fast :__)
-    string a = "(a*b+c*d)";
+    string a = "(a+b)*(c+d)*()()())(";
  Stack objectone ;
   SetUP(&objectone , a);
   check(&objectone);
